@@ -1,0 +1,26 @@
+{
+  "name": "commitlint-installer",
+  "version": "0.0.1",
+  "description": "git commit lint auto installer",
+  "main": "bin.js",
+  "bin": {
+    "cmli": "./bin.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "lint"
+  ],
+  "author": "shawnyuan",
+  "license": "ISC",
+  "devDependencies": {
+    "commander": "^8.1.0",
+    "ora": "^5.4.1"
+  }
+}
