@@ -11,8 +11,7 @@ const spinner = ora('执行中...')
 const wirteFile = promisify(fs.writeFile)
 const exec = promisify(child_process.exec)
 
-async function install(target = '') {
-  const absPath = path.resolve(target)
+async function install() {
   spinner.start()
   try {
     await npmInit()
