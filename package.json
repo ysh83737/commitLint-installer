@@ -20,6 +20,7 @@
   "author": "shawnyuan",
   "license": "ISC",
   "devDependencies": {
+    "chalk": "^4.1.2",
     "commander": "^8.1.0",
     "ora": "^5.4.1"
   }
