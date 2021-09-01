@@ -7,8 +7,16 @@
     "cmli": "./bin.js"
   },
   "files": [
-    "dist"
+    "bin.js",
+    "src"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ysh83737/commitLint-installer.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
