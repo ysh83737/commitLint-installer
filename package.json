@@ -1,6 +1,6 @@
 {
   "name": "commitlint-installer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "git commit lint auto installer",
   "main": "bin.js",
   "bin": {
@@ -27,7 +27,7 @@
   ],
   "author": "shawnyuan",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^8.1.0",
     "ora": "^5.4.1"
