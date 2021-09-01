@@ -7,12 +7,13 @@ const ora = require('ora')
 const { COMMIT_MSG, COMMIT_LINT_CONFIG } = require('./common')
 const { getNpmCleint, checkNpmInited, checkGitInited } = require('./utils')
 
-const spinner = ora('执行中...').start()
+const spinner = ora('执行中...')
 const wirteFile = promisify(fs.writeFile)
 const exec = promisify(child_process.exec)
 
 async function install(target = '') {
   const absPath = path.resolve(target)
+  spinner.start()
   try {
     await npmInit()
     await gitInit()

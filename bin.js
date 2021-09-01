@@ -7,7 +7,6 @@ process.title = 'CommitLintInstaller'
 
 program
   .version(version, '-v, --version', '版本号')
-  .option('-t, --target <targetPath>', '目标路径')
   .parse(process.argv)
 
 const options = program.opts()
