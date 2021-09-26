@@ -1,6 +1,6 @@
 {
   "name": "commitlint-installer",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "git commit lint auto installer",
   "main": "bin.js",
   "bin": {
